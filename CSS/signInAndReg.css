@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.signInBox{
+    height: 600px;
+    padding-top: 100px;
+}
+.signUpBox{
+    height: 600px;
+    padding-top: 100px;
+}
+i{
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+  }
+  .fa-facebook{
+      padding: 10px 14px;
+  }
+  /* .header h1{
+      font-size: 50px;
+  } */
+  input{
+      width: 200px;
+      height: 30px;
+      padding: 2px 6px;
+  }
+  .overlay-signIn{
+       padding-top: 200px;
+  }
+  .overlay-signUp{
+    padding-top: 200px;
+}
+@media screen and (max-width: 991px) {
+    .box{
+        height: 700px;
+    }
+    .overlay-signIn{
+        height: 200px;
+        padding-top:50px;
+   }
+   .signInBox{
+    height: 500px;
+    padding-top: 50px;
+}
+.overlay-container{
+    height: 700px;
+}
+.overlay-signUp{
+    height: 200px;
+    padding-top:50px;
+}
+.signUpBox{
+height: 500px;
+padding-top: 50px;
+}
+
+}
